@@ -1,6 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
- ENV["DARK_SKY_API_KEY"] = "2e2f4dd7e878788573a105cf10329ebc" 
+# ENV["DARK_SKY_API_KEY"] = "2e2f4dd7e878788573a105cf10329ebc" 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   # In the development environment your application's code is reloaded on
   # every request. This down response time but is perfect for development
